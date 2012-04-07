@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1F97D51530BEE300787606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F97D41530BEE300787606 /* UIKit.framework */; };
+		0F1F97D71530BEE300787606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F97D61530BEE300787606 /* Foundation.framework */; };
+		0F1F97D91530BEE300787606 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F97D81530BEE300787606 /* CoreGraphics.framework */; };
+		0F1F97DF1530BEE300787606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F97DD1530BEE300787606 /* InfoPlist.strings */; };
+		0F1F97E11530BEE300787606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97E01530BEE300787606 /* main.m */; };
+		0F1F97E51530BEE300787606 /* IMDPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97E41530BEE300787606 /* IMDPAppDelegate.m */; };
+		0F1F97E81530BEE300787606 /* IMDPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97E71530BEE300787606 /* IMDPViewController.m */; };
+		0F1F97EB1530BEE300787606 /* IMDPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F97E91530BEE300787606 /* IMDPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1F97D01530BEE300787606 /* IMDPPlaceHolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDPPlaceHolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1F97D41530BEE300787606 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F1F97D61530BEE300787606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F1F97D81530BEE300787606 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F1F97DC1530BEE300787606 /* IMDPPlaceHolder-Info.plist */ = {isa = PBXFileReference; path = "IMDPPlaceHolder-Info.plist"; sourceTree = "<group>"; };
+		0F1F97DE1530BEE300787606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F1F97E01530BEE300787606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F1F97E21530BEE300787606 /* IMDPPlaceHolder-Prefix.pch */ = {isa = PBXFileReference; path = "IMDPPlaceHolder-Prefix.pch"; sourceTree = "<group>"; };
+		0F1F97E31530BEE300787606 /* IMDPAppDelegate.h */ = {isa = PBXFileReference; path = IMDPAppDelegate.h; sourceTree = "<group>"; };
+		0F1F97E41530BEE300787606 /* IMDPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDPAppDelegate.m; sourceTree = "<group>"; };
+		0F1F97E61530BEE300787606 /* IMDPViewController.h */ = {isa = PBXFileReference; path = IMDPViewController.h; sourceTree = "<group>"; };
+		0F1F97E71530BEE300787606 /* IMDPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDPViewController.m; sourceTree = "<group>"; };
+		0F1F97EA1530BEE300787606 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IMDPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1F97CD1530BEE300787606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1F97D51530BEE300787606 /* UIKit.framework in Frameworks */,
+				0F1F97D71530BEE300787606 /* Foundation.framework in Frameworks */,
+				0F1F97D91530BEE300787606 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1F97C51530BEE300787606 = {
+			isa = PBXGroup;
+			children = (
+				0F1F97DA1530BEE300787606 /* IMDPPlaceHolder */,
+				0F1F97D31530BEE300787606 /* Frameworks */,
+				0F1F97D11530BEE300787606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F1F97D11530BEE300787606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F97D01530BEE300787606 /* IMDPPlaceHolder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1F97D31530BEE300787606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F97D41530BEE300787606 /* UIKit.framework */,
+				0F1F97D61530BEE300787606 /* Foundation.framework */,
+				0F1F97D81530BEE300787606 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F1F97DA1530BEE300787606 /* IMDPPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F97E31530BEE300787606 /* IMDPAppDelegate.h */,
+				0F1F97E41530BEE300787606 /* IMDPAppDelegate.m */,
+				0F1F97E61530BEE300787606 /* IMDPViewController.h */,
+				0F1F97E71530BEE300787606 /* IMDPViewController.m */,
+				0F1F97E91530BEE300787606 /* IMDPViewController.xib */,
+				0F1F97DB1530BEE300787606 /* Supporting Files */,
+			);
+			path = IMDPPlaceHolder;
+			sourceTree = "<group>";
+		};
+		0F1F97DB1530BEE300787606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F97DC1530BEE300787606 /* IMDPPlaceHolder-Info.plist */,
+				0F1F97DD1530BEE300787606 /* InfoPlist.strings */,
+				0F1F97E01530BEE300787606 /* main.m */,
+				0F1F97E21530BEE300787606 /* IMDPPlaceHolder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1F97CF1530BEE300787606 /* IMDPPlaceHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1F97EE1530BEE300787606 /* Build configuration list for PBXNativeTarget "IMDPPlaceHolder" */;
+			buildPhases = (
+				0F1F97CC1530BEE300787606 /* Sources */,
+				0F1F97CD1530BEE300787606 /* Frameworks */,
+				0F1F97CE1530BEE300787606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMDPPlaceHolder;
+			productName = IMDPPlaceHolder;
+			productReference = 0F1F97D01530BEE300787606 /* IMDPPlaceHolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F1F97C71530BEE300787606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IMDP;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Risorsa s.r.l.";
+			};
+			buildConfigurationList = 0F1F97CA1530BEE300787606 /* Build configuration list for PBXProject "IMDPPlaceHolder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F1F97C51530BEE300787606;
+			productRefGroup = 0F1F97D11530BEE300787606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F1F97CF1530BEE300787606 /* IMDPPlaceHolder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1F97CE1530BEE300787606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1F97DF1530BEE300787606 /* InfoPlist.strings in Resources */,
+				0F1F97EB1530BEE300787606 /* IMDPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1F97CC1530BEE300787606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1F97E11530BEE300787606 /* main.m in Sources */,
+				0F1F97E51530BEE300787606 /* IMDPAppDelegate.m in Sources */,
+				0F1F97E81530BEE300787606 /* IMDPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F1F97DD1530BEE300787606 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1F97DE1530BEE300787606 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F1F97E91530BEE300787606 /* IMDPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1F97EA1530BEE300787606 /* en */,
+			);
+			name = IMDPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F1F97EC1530BEE300787606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F1F97ED1530BEE300787606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F1F97EF1530BEE300787606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMDPPlaceHolder/IMDPPlaceHolder-Prefix.pch";
+				INFOPLIST_FILE = "IMDPPlaceHolder/IMDPPlaceHolder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F1F97F01530BEE300787606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMDPPlaceHolder/IMDPPlaceHolder-Prefix.pch";
+				INFOPLIST_FILE = "IMDPPlaceHolder/IMDPPlaceHolder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1F97CA1530BEE300787606 /* Build configuration list for PBXProject "IMDPPlaceHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1F97EC1530BEE300787606 /* Debug */,
+				0F1F97ED1530BEE300787606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1F97EE1530BEE300787606 /* Build configuration list for PBXNativeTarget "IMDPPlaceHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1F97EF1530BEE300787606 /* Debug */,
+				0F1F97F01530BEE300787606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F1F97C71530BEE300787606 /* Project object */;
+}
