@@ -15,6 +15,10 @@
 		0F1F97E51530BEE300787606 /* IMDPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97E41530BEE300787606 /* IMDPAppDelegate.m */; };
 		0F1F97E81530BEE300787606 /* IMDPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97E71530BEE300787606 /* IMDPViewController.m */; };
 		0F1F97EB1530BEE300787606 /* IMDPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F97E91530BEE300787606 /* IMDPViewController.xib */; };
+		0F1F97F71530BF8600787606 /* IMDPPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97F61530BF8600787606 /* IMDPPlaceHolder.m */; };
+		0F1F97FC1530BFB700787606 /* IMDPComplexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F97FA1530BFB700787606 /* IMDPComplexView.m */; };
+		0F1F97FD1530BFB700787606 /* IMDPComplexView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F97FB1530BFB700787606 /* IMDPComplexView.xib */; };
+		0F1F97FF1530C09600787606 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F97FE1530C09600787606 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,21 @@
 		0F1F97D41530BEE300787606 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F1F97D61530BEE300787606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F1F97D81530BEE300787606 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0F1F97DC1530BEE300787606 /* IMDPPlaceHolder-Info.plist */ = {isa = PBXFileReference; path = "IMDPPlaceHolder-Info.plist"; sourceTree = "<group>"; };
+		0F1F97DC1530BEE300787606 /* IMDPPlaceHolder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMDPPlaceHolder-Info.plist"; sourceTree = "<group>"; };
 		0F1F97DE1530BEE300787606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F1F97E01530BEE300787606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F1F97E21530BEE300787606 /* IMDPPlaceHolder-Prefix.pch */ = {isa = PBXFileReference; path = "IMDPPlaceHolder-Prefix.pch"; sourceTree = "<group>"; };
-		0F1F97E31530BEE300787606 /* IMDPAppDelegate.h */ = {isa = PBXFileReference; path = IMDPAppDelegate.h; sourceTree = "<group>"; };
+		0F1F97E21530BEE300787606 /* IMDPPlaceHolder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMDPPlaceHolder-Prefix.pch"; sourceTree = "<group>"; };
+		0F1F97E31530BEE300787606 /* IMDPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDPAppDelegate.h; sourceTree = "<group>"; };
 		0F1F97E41530BEE300787606 /* IMDPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDPAppDelegate.m; sourceTree = "<group>"; };
-		0F1F97E61530BEE300787606 /* IMDPViewController.h */ = {isa = PBXFileReference; path = IMDPViewController.h; sourceTree = "<group>"; };
+		0F1F97E61530BEE300787606 /* IMDPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMDPViewController.h; sourceTree = "<group>"; };
 		0F1F97E71530BEE300787606 /* IMDPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMDPViewController.m; sourceTree = "<group>"; };
 		0F1F97EA1530BEE300787606 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IMDPViewController.xib; sourceTree = "<group>"; };
+		0F1F97F51530BF8600787606 /* IMDPPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDPPlaceHolder.h; sourceTree = "<group>"; };
+		0F1F97F61530BF8600787606 /* IMDPPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDPPlaceHolder.m; sourceTree = "<group>"; };
+		0F1F97F91530BFB700787606 /* IMDPComplexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDPComplexView.h; sourceTree = "<group>"; };
+		0F1F97FA1530BFB700787606 /* IMDPComplexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDPComplexView.m; sourceTree = "<group>"; };
+		0F1F97FB1530BFB700787606 /* IMDPComplexView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMDPComplexView.xib; sourceTree = "<group>"; };
+		0F1F97FE1530C09600787606 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,7 @@
 		0F1F97C51530BEE300787606 = {
 			isa = PBXGroup;
 			children = (
+				0F1F97FE1530C09600787606 /* README */,
 				0F1F97DA1530BEE300787606 /* IMDPPlaceHolder */,
 				0F1F97D31530BEE300787606 /* Frameworks */,
 				0F1F97D11530BEE300787606 /* Products */,
@@ -82,6 +93,10 @@
 				0F1F97E61530BEE300787606 /* IMDPViewController.h */,
 				0F1F97E71530BEE300787606 /* IMDPViewController.m */,
 				0F1F97E91530BEE300787606 /* IMDPViewController.xib */,
+				0F1F97F81530BF8E00787606 /* PlaceHolder */,
+				0F1F97F91530BFB700787606 /* IMDPComplexView.h */,
+				0F1F97FA1530BFB700787606 /* IMDPComplexView.m */,
+				0F1F97FB1530BFB700787606 /* IMDPComplexView.xib */,
 				0F1F97DB1530BEE300787606 /* Supporting Files */,
 			);
 			path = IMDPPlaceHolder;
@@ -96,6 +111,15 @@
 				0F1F97E21530BEE300787606 /* IMDPPlaceHolder-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F1F97F81530BF8E00787606 /* PlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F97F51530BF8600787606 /* IMDPPlaceHolder.h */,
+				0F1F97F61530BF8600787606 /* IMDPPlaceHolder.m */,
+			);
+			name = PlaceHolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +176,8 @@
 			files = (
 				0F1F97DF1530BEE300787606 /* InfoPlist.strings in Resources */,
 				0F1F97EB1530BEE300787606 /* IMDPViewController.xib in Resources */,
+				0F1F97FD1530BFB700787606 /* IMDPComplexView.xib in Resources */,
+				0F1F97FF1530C09600787606 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +191,8 @@
 				0F1F97E11530BEE300787606 /* main.m in Sources */,
 				0F1F97E51530BEE300787606 /* IMDPAppDelegate.m in Sources */,
 				0F1F97E81530BEE300787606 /* IMDPViewController.m in Sources */,
+				0F1F97F71530BF8600787606 /* IMDPPlaceHolder.m in Sources */,
+				0F1F97FC1530BFB700787606 /* IMDPComplexView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMDPPlaceHolder/IMDPPlaceHolder-Prefix.pch";
 				INFOPLIST_FILE = "IMDPPlaceHolder/IMDPPlaceHolder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -252,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMDPPlaceHolder/IMDPPlaceHolder-Prefix.pch";
 				INFOPLIST_FILE = "IMDPPlaceHolder/IMDPPlaceHolder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

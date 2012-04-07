@@ -1,6 +1,6 @@
 //
-//  IMDPViewController.h
-//  IMDPPlaceHolder
+//  IMDPPlaceHolder.h
+//  DemoCatalogo
 //
 //  Created by il Malvagio Dottor Prosciutto
 //  No Copyright but attribution is appreciated
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IMDPViewController : UIViewController
+@interface IMDPPlaceHolder : UILabel
 
 @end

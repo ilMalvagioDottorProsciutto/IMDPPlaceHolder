@@ -2,8 +2,8 @@
 //  IMDPViewController.m
 //  IMDPPlaceHolder
 //
-//  Created by Fabio Budai on 07/04/12.
-//  Copyright (c) 2012 Risorsa s.r.l. All rights reserved.
+//  Created by il Malvagio Dottor Prosciutto
+//  No Copyright but attribution is appreciated
 //
 
 #import "IMDPViewController.h"
