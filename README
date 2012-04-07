@@ -1,1 +1,23 @@
-TODO: explain in plain English
+Interface Builder is a powerfull tool, but lack (on iOS) of a fundamental feature: it don't let you to add a view coming from another xib.
+So if you draw your complex but reusable view in a xib (i.e. a custom picker better than standard one) you can't graphically add it in another xib. The only option is to add it by code: not the end of the world of course, but kinda annoying.
+Also since ARC you cannot anymore replace "self" in methods not called "init", so you can't simply put a view, change the class to your custom object than subclass the awakeFromNib method of this class.
+The idea then is to use a placeholder object that at runtime sustitute itself with an instance of your custom class loaded from the corresponding xib.
+Is a 2 step trick:
+First you have to put a UILabel in the exact place/frame you want your object, set as text the name of your class, change its class to the subclass IMDPPlaceHolder and set the tag property to the value you want to assign to your object.
+Then you must subclass the initWithFrame: method in you custom class with this code that will load your object from the xib that have the classname.
+
+- (id)initWithFrame:(CGRect)frame
+{
+	// the standard [super ] call is useless, we load a new object from scratch from the nib
+	NSArray *nibArray = [[UINib nibWithNibName:NSStringFromClass(self.class) bundle:nil] instantiateWithOwner:nil options:nil];
+    self = [nibArray objectAtIndex: 0];	// we ssume it's the first object of the xib
+	self.frame = frame;
+    return self;
+}
+
+How it works:
+At runtime (awakeFromNib) the IMDPPlaceHolder will call the initWithFrame of the class setted in its "text" property, passing its frame, then set the tag to its value, add your object to the superview and finally remove itself.
+
+To use it in your project just add IMDPPlaceHolder.h/.m and change the initWithFrame: method of your classes as shown above.
+
+Dunno if there's better way to do this, but it is easy to use and works! ;)

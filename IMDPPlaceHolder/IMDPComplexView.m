@@ -22,13 +22,9 @@
 
 - (id)initWithFrame:(CGRect)frame
 {
-	/* the standard [super ] call is useless, we load a new object from scratch from the nib
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }*/
-	
-	self = [IMDPComplexView newFromNib:NSStringFromClass(self.class)];
+	// the standard [super ] call is useless, we load a new object from scratch from the nib
+	NSArray *nibArray = [[UINib nibWithNibName:NSStringFromClass(self.class) bundle:nil] instantiateWithOwner:nil options:nil];
+    self = [nibArray objectAtIndex: 0];
 	self.frame = frame;
     return self;
 }
