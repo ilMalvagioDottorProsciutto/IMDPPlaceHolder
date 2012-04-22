@@ -16,6 +16,7 @@
 	placeholder.text: name of the new class (that must implement initWithFrame:)
 	placeholder.frame: frame of the new object also.
 	placeholder.tag: the new object will have the same tag of the placeholder, to easily retrive it.
+	it also copy some other useful properties like alpha and autoresizingMask, and if you need more just add ;)
 	After creating and adding to superview the new object the placeholder remove itself.
 	
 	NOTE: Since ARC you cannot anymore replace "self" in methods not called "init", so you can't simply subclass the awakeFromNib of the actual class and replace the "unused" self with the one loaded from nib.
@@ -28,6 +29,8 @@
 	
 	UIView* theRealView = [[NSClassFromString(self.text) alloc] initWithFrame:self.frame];
 	theRealView.tag = self.tag;
+	theRealView.alpha = self.alpha;
+	theRealView.autoresizingMask = self.autoresizingMask;
 	
 	[self.superview addSubview:theRealView];
 	[self removeFromSuperview];
