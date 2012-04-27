@@ -31,6 +31,7 @@
 	theRealView.tag = self.tag;
 	theRealView.alpha = self.alpha;
 	theRealView.autoresizingMask = self.autoresizingMask;
+	theRealView.hidden = self.hidden;
 	
 	[self.superview addSubview:theRealView];
 	[self removeFromSuperview];
